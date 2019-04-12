@@ -1,0 +1,6 @@
+1.Copy "gnuboy64.v64" AND the directory "gnuboy" on the root of your SD cart
+2.Put your GB/GBC games(uncompressed!) in the directory /gnuboy/games/
+3.(Optional)If you have save files(rtc,sram,states) put them in /gnuboy/saves/
+4.Launch "gnuboy64.v64" as your would do with any homebrew app
+
+@http://code.google.com/p/gnuboy64/

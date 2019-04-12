@@ -1,0 +1,16 @@
+
+General build instructions:
+1.Extract "toolchain.tar.lzma"
+2.Read the extracted README file
+3.Do the installation (to a -separate- sdk path if you have a n64 sdk previously installed *This is important*)
+4.Now you're ready to compile the code :
+export N64_INST=/path/to/sdk
+make -f Makefile.driver_name (ie : make -f Makefile.myth64)
+(Currently only neomyth is supported.If you would like to add support 
+for your flashcart have a look at /filesystem/ &/filesystem/drivers/ and just replace the missing bits )
+
+FS Driver specific build instructions:
+*Myth64 SD driver requires libff to be installed on the target SDK path , so make sure to install libff from 
+/filesystem/drivers/fs_lib/libff/ (export N64_INST=/path/to/sdk\make && make install) before attempting to compile the emu core.
+*ED64 drivers are not yet implemented
+*64DRIVE drivers are not yet implemented
